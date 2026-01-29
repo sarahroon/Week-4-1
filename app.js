@@ -31,3 +31,5 @@ app.post("/messages", express.json(), (req, res) => {
     console.log("req.body", req.body);
     res.json("status:"Message received!" });
 });
+
+const baseUrl = "https://web-service-c65n.onrender.com/";
